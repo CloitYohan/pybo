@@ -1,0 +1,13 @@
+[1mdiff --git a/templates/base.html b/templates/base.html[m
+[1mindex 0ccbddd..fada2aa 100644[m
+[1m--- a/templates/base.html[m
+[1m+++ b/templates/base.html[m
+[36m@@ -9,7 +9,7 @@[m
+     <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">[m
+     <!-- pybo CSS -->[m
+     <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">[m
+[31m-    <title>Title</title>[m
+[32m+[m[32m    <title>파이보</title>[m
+ </head>[m
+ <body>[m
+ <!-- 네비게이션바 -->[m
