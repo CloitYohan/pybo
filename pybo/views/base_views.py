@@ -3,9 +3,11 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.db.models import Q, Count
 from ..models import Question
 from . import question_views
+import logging
+logger = logging.getLogger('pybo')
 
 def index(request):
-    3 / 0  # 강제로 오류발생
+    logger.info("INFO 레벨로 출력")
     page = request.GET.get('page', '1')  # 페이지
     kw = request.GET.get('kw', '')  # 검색어
     so = request.GET.get('so', 'recent')
