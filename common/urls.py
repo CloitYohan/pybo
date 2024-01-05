@@ -11,4 +11,3 @@ urlpatterns = [
     path('signup/', views.signup, name='signup'),
 ]
 
-handler404 = 'common.views.page_not_found'
